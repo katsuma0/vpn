@@ -7,7 +7,7 @@ Why it lives here instead of coming in as a Swift package: upstream's `Package.s
 | Folder | What's in it |
 | --- | --- |
 | `Swift/` | The Swift API: `WireGuardAdapter`, `TunnelConfiguration` and friends. Unchanged from upstream. |
-| `C/` | Curve25519 key helpers. Unchanged from upstream. |
+| `C/` | Curve25519 key helpers. One change: `WireGuardKitC.h` now includes `<sys/types.h>` itself, which newer Xcode requires. |
 | `Go/` | The Go engine. Xcode's `WireGuardGoBridge` targets run `make` here to build `libwg-go.a`. `go.mod` points at a newer wireguard-go and `golang.org/x` packages so it builds with current Go. |
 
 To bump wireguard-go later, run this in `Go/`:

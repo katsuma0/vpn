@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: MIT
 // Copyright © 2018-2023 WireGuard LLC. All Rights Reserved.
 
+// Hop: u_int32_t, u_int16_t and u_char below come from <sys/types.h>. Newer
+// Xcode refuses to borrow them from another header's module, so include it.
+#include <sys/types.h>
+
 #include "key.h"
 #include "x25519.h"
 
