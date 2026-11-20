@@ -1,0 +1,11 @@
+// The only file you need to touch before building.
+//
+// 1. DEVELOPMENT_TEAM: your Apple Developer Team ID. Find it at
+//    developer.apple.com/account under Membership details, or in Xcode:
+//    Settings > Accounts > your Apple ID > Team.
+// 2. BUNDLE_ID_PREFIX: something unique to you, like com.yourname.
+//    The app becomes $(BUNDLE_ID_PREFIX).hop and the tunnel
+//    $(BUNDLE_ID_PREFIX).hop.tunnel.
+
+DEVELOPMENT_TEAM =
+BUNDLE_ID_PREFIX = com.katsuma0
