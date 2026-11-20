@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1E6EED684E0E2879519CDD6F"
+               BlueprintIdentifier = "AA8C2F0C8F01D699C513EBC9"
                BuildableName = "Hop.app"
                BlueprintName = "Hop-iOS"
                ReferencedContainer = "container:Hop.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1E6EED684E0E2879519CDD6F"
+            BlueprintIdentifier = "AA8C2F0C8F01D699C513EBC9"
             BuildableName = "Hop.app"
             BlueprintName = "Hop-iOS"
             ReferencedContainer = "container:Hop.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1E6EED684E0E2879519CDD6F"
+            BlueprintIdentifier = "AA8C2F0C8F01D699C513EBC9"
             BuildableName = "Hop.app"
             BlueprintName = "Hop-iOS"
             ReferencedContainer = "container:Hop.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1E6EED684E0E2879519CDD6F"
+            BlueprintIdentifier = "AA8C2F0C8F01D699C513EBC9"
             BuildableName = "Hop.app"
             BlueprintName = "Hop-iOS"
             ReferencedContainer = "container:Hop.xcodeproj">

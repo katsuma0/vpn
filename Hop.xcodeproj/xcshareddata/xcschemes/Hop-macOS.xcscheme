@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E7D73C92B3EA57B26DF9CCAF"
+               BlueprintIdentifier = "50D98ADD7488BA2D413E39F2"
                BuildableName = "Hop.app"
                BlueprintName = "Hop-macOS"
                ReferencedContainer = "container:Hop.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E7D73C92B3EA57B26DF9CCAF"
+            BlueprintIdentifier = "50D98ADD7488BA2D413E39F2"
             BuildableName = "Hop.app"
             BlueprintName = "Hop-macOS"
             ReferencedContainer = "container:Hop.xcodeproj">
@@ -41,7 +41,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CACF71D98650A0AE2777FBE3"
+               BlueprintIdentifier = "CEF87537128B3AFB44B0184D"
                BuildableName = "HopTests.xctest"
                BlueprintName = "HopTests"
                ReferencedContainer = "container:Hop.xcodeproj">
@@ -63,7 +63,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E7D73C92B3EA57B26DF9CCAF"
+            BlueprintIdentifier = "50D98ADD7488BA2D413E39F2"
             BuildableName = "Hop.app"
             BlueprintName = "Hop-macOS"
             ReferencedContainer = "container:Hop.xcodeproj">
@@ -80,7 +80,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E7D73C92B3EA57B26DF9CCAF"
+            BlueprintIdentifier = "50D98ADD7488BA2D413E39F2"
             BuildableName = "Hop.app"
             BlueprintName = "Hop-macOS"
             ReferencedContainer = "container:Hop.xcodeproj">

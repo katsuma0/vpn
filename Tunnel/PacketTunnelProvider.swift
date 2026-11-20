@@ -1,5 +1,4 @@
 import NetworkExtension
-import WireGuardKit
 import os
 
 private let tunnelLog = Logger(subsystem: "Hop", category: "tunnel")

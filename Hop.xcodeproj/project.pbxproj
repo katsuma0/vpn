@@ -7,110 +7,138 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		026F31502746C887AABFAAE0 /* ServersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1055533E492821CD055F157F /* ServersView.swift */; };
-		0277804BD4F8C25AB968C4F7 /* WireGuardConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DFEBEDAE64073936F5B73 /* WireGuardConfig.swift */; };
-		094A6D2A48057502C51BE81B /* ServersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1055533E492821CD055F157F /* ServersView.swift */; };
-		0EE9E1C147F4E7CE213B0691 /* TunnelKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764A5446583C1FDACF42B9AC /* TunnelKeys.swift */; };
-		121D2E053A4B0549064E7015 /* CountryDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AF0969F2856F977F4FF33C /* CountryDetectorTests.swift */; };
-		13A652D1293109E0B5FB54A4 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66AF2AA8D67E195649053A /* Country.swift */; };
-		142BB2A37576C04705A91701 /* TunnelKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764A5446583C1FDACF42B9AC /* TunnelKeys.swift */; };
-		23684E42F9E338205C0C3B19 /* ConnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E56C70DCA7907795A54460A /* ConnectButton.swift */; };
-		32BBAFE2879C47055032B406 /* WireGuardConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DFEBEDAE64073936F5B73 /* WireGuardConfig.swift */; };
-		36B4A6FB85257DD5185B4F9C /* AddServerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE4D9479E8C6594B13A28EF /* AddServerView.swift */; };
-		37BDC6F80284B8E1D4D25CFA /* WireGuardConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DFEBEDAE64073936F5B73 /* WireGuardConfig.swift */; };
-		39701F24AD75A6D4904F35EE /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F5B53E05C4398F193EF5E8 /* CountryPickerView.swift */; };
-		3A1DF8812C956AC7D8EE783F /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7525096F73A22F5FE97930 /* PacketTunnelProvider.swift */; };
-		443F12542E3CBDC2F91E424E /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7525096F73A22F5FE97930 /* PacketTunnelProvider.swift */; };
-		4DFA5335C5EB2A5FF9BB73A8 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A894C0D65417CDE6ED1D0B /* MenuBarView.swift */; };
-		5844DD8557A3341D2EECD32A /* TunnelKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764A5446583C1FDACF42B9AC /* TunnelKeys.swift */; };
-		586DCCF25841821CBFBFA5C2 /* CountryDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A1F24A8CE00990FC990276 /* CountryDetector.swift */; };
-		5AC596FDE760F1D3ECC6AC92 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E2F8B855D34DD15A1C24E6 /* AppModel.swift */; };
-		5F8B9433D4EE24AF475C738C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E0B83D799038E30C838E86 /* Assets.xcassets */; };
-		6018C37965C29F035B53E257 /* WireGuardKit in Frameworks */ = {isa = PBXBuildFile; productRef = FAC3EBB6149D79D89A0361BA /* WireGuardKit */; };
-		602DB4FD6508ACDDEAA04572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E0B83D799038E30C838E86 /* Assets.xcassets */; };
-		604BD21026A72634EF89642A /* TestFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2354E7294E729B8708B24CB3 /* TestFixtures.swift */; };
-		6CFFE440C901A8C2F9B62BD2 /* VPNController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DF8FA7DF6ACA678929A14 /* VPNController.swift */; };
-		6F1C28A78E6F2FEF30A1D7CD /* VPNController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DF8FA7DF6ACA678929A14 /* VPNController.swift */; };
-		742C0B5B547EC6EF0D23FD95 /* TunnelKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764A5446583C1FDACF42B9AC /* TunnelKeys.swift */; };
-		763C7D2E191DB90B04D70DBB /* WireGuardConfig+WireGuardKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD36477389187AF88734B0B0 /* WireGuardConfig+WireGuardKit.swift */; };
-		771378AB9C3952CCF8280D5E /* WireGuardConfig+WireGuardKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD36477389187AF88734B0B0 /* WireGuardConfig+WireGuardKit.swift */; };
-		7DDC8571A95CB2FD311D6AA2 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66AF2AA8D67E195649053A /* Country.swift */; };
-		8BE0A540BBE446D796346115 /* ServerLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15052F92E50059564555F67 /* ServerLibraryTests.swift */; };
-		9713E243A0AEE6E274939DFF /* TunnelKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764A5446583C1FDACF42B9AC /* TunnelKeys.swift */; };
-		99265FA555C07416BCBF767C /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66AF2AA8D67E195649053A /* Country.swift */; };
-		9A34C8A3C71EAE46E494FD84 /* ConnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E56C70DCA7907795A54460A /* ConnectButton.swift */; };
-		9D212E22399627DBDEFFA907 /* AddServerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE4D9479E8C6594B13A28EF /* AddServerView.swift */; };
-		A2AD7ACA6A1D0FB8089EDCFF /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922DD67C58A154D6CFC5A293 /* HelpView.swift */; };
-		B61AAC3615DC19A9FD247B83 /* HopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C1F4C23834719B5FA53042 /* HopApp.swift */; };
-		B68A16B65893266ADC26C934 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E2F8B855D34DD15A1C24E6 /* AppModel.swift */; };
-		BADE63223E247BFA039A8DD3 /* HopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C1F4C23834719B5FA53042 /* HopApp.swift */; };
-		BE2F246B6657368EAE026A77 /* HopTunnel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9F2BB33F66A7BDB26BAC02B7 /* HopTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		BF4A2211C3469F01344603FE /* WireGuardConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DFEBEDAE64073936F5B73 /* WireGuardConfig.swift */; };
-		C71057A2C275314882AEBB7F /* HopTunnel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 109B893F876ED4174C8E8362 /* HopTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C9FBDBCAC31E132A5BA2F53E /* CountryDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A1F24A8CE00990FC990276 /* CountryDetector.swift */; };
-		CD644C010568992896B3F48C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D66B5F9D86A178F82F722 /* HomeView.swift */; };
-		CE37017B46C6859E046FDB99 /* WireGuardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 03E299DC7273867F93A33443 /* WireGuardKit */; };
-		D54849827C905B05E8D5D726 /* WireGuardConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D326BFD768FE28C808EFDC /* WireGuardConfigTests.swift */; };
-		D6C79DAEBF9E30A303632DE1 /* ServerLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D6A3B0B2491E07DB3CF87 /* ServerLibrary.swift */; };
-		D78ACD121812040CA8E98EE4 /* ServerLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D6A3B0B2491E07DB3CF87 /* ServerLibrary.swift */; };
-		D90158752C2849BC7D311C30 /* CountryDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A1F24A8CE00990FC990276 /* CountryDetector.swift */; };
-		E2D9795F7A93C63849E00F12 /* WireGuardConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DFEBEDAE64073936F5B73 /* WireGuardConfig.swift */; };
-		E5CAE315288F0F99B5CD3FE8 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922DD67C58A154D6CFC5A293 /* HelpView.swift */; };
-		F0076A2C8E63125BC1D9EEE5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D66B5F9D86A178F82F722 /* HomeView.swift */; };
-		FC5A5BBB7AA1C4563674A67D /* ServerLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D6A3B0B2491E07DB3CF87 /* ServerLibrary.swift */; };
-		FD4E86F5D343AED8A5117B7C /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F5B53E05C4398F193EF5E8 /* CountryPickerView.swift */; };
+		031EA113312FB1242113AE81 /* HopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA460D9BF17FD13353952054 /* HopApp.swift */; };
+		0638A4BA7D9F6F5EF239317C /* ServersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27041D0F7B4BD8C0DD0288 /* ServersView.swift */; };
+		0A2804FCF3135C197A9A0042 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0993C4D722E93A0CC8F950 /* Endpoint.swift */; };
+		0D99F7E0AD00DA47949A6F2B /* ServerLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDD99CF96E8436299ACD128 /* ServerLibraryTests.swift */; };
+		0DF13FA7958786D024E2A43B /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADDE453E47A4B9F913F56A2 /* Country.swift */; };
+		105538D1D9EC19CF67569E83 /* WireGuardConfig+WireGuardKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B3AF42BD6944AC69C61BAB /* WireGuardConfig+WireGuardKit.swift */; };
+		13C33B0120B83359315FA851 /* ConnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE7AC8330850EED132004B /* ConnectButton.swift */; };
+		148A651917018E30BB673A46 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76E5EBE8E30BD616E4C50AA /* HelpView.swift */; };
+		1BA6E80D4ABF7C4D1516B2F4 /* x25519.c in Sources */ = {isa = PBXBuildFile; fileRef = 289F9DF9E8C58DE34249D5BD /* x25519.c */; };
+		1DEF0B712138496E4D37C590 /* key.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F31698C9580FE827CC285E5 /* key.c */; };
+		1E2336D4916F788E8C0C6179 /* HopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA460D9BF17FD13353952054 /* HopApp.swift */; };
+		213EA1872EFCA7744A5C3DEB /* WireGuardConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BDB0284B69BD6B2451A3 /* WireGuardConfig.swift */; };
+		2DF8FE629BD1FC88599ED665 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0159C5B9F5660EF782DE0E /* AppModel.swift */; };
+		2E774E1036597B5024C6ECCD /* WireGuardAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC888B80D5ED12D62CE80A /* WireGuardAdapter.swift */; };
+		2ED1C4728F92C7D70C232D78 /* WireGuardAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC888B80D5ED12D62CE80A /* WireGuardAdapter.swift */; };
+		392F4FFD656E353BB15FBEAE /* CountryDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA204DAD613D72E81462021 /* CountryDetector.swift */; };
+		3BEF48D54E922DFB11D7F9B9 /* Array+ConcurrentMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889669EAF49DF1FF18DF1A49 /* Array+ConcurrentMap.swift */; };
+		4A21CECFF3F9F8023E3C65BC /* DNSServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34D26393A93482961899952 /* DNSServer.swift */; };
+		4BBAE41C283A3E6939C8E8B5 /* DNSResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D7820CA1C4CFAD2877CCFB /* DNSResolver.swift */; };
+		4D617952EEBE98E6A5ACC2FE /* WireGuardConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BDB0284B69BD6B2451A3 /* WireGuardConfig.swift */; };
+		53EC6EDB81E2738A54A95643 /* DNSResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D7820CA1C4CFAD2877CCFB /* DNSResolver.swift */; };
+		54C459858A481FFC5BC7521E /* TunnelKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D0455AF7EF97FCE5D5F33C /* TunnelKeys.swift */; };
+		552699CB01E9C09D9CDE03FE /* CountryDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F221FA5812E4DBB800CDF58D /* CountryDetectorTests.swift */; };
+		55D59377CD34ECED329F1F46 /* TunnelKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D0455AF7EF97FCE5D5F33C /* TunnelKeys.swift */; };
+		57509FE34A32CBF58A141D6E /* ServersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27041D0F7B4BD8C0DD0288 /* ServersView.swift */; };
+		57AB8A81DDFB14F61052EB14 /* IPAddressRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B3F5F9A9A7EF3034C1FC2E /* IPAddressRange.swift */; };
+		5B4F93B7E1B953ED6E760FDB /* ServerLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B572B8E1529856945E77276 /* ServerLibrary.swift */; };
+		5C0C46FDAF720FCD02816B1B /* CountryDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA204DAD613D72E81462021 /* CountryDetector.swift */; };
+		5EA799100418C6DA146B9320 /* InterfaceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BAE926C3ED0BB1C90880B9 /* InterfaceConfiguration.swift */; };
+		65419B0012EB195208E9F1E3 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0993C4D722E93A0CC8F950 /* Endpoint.swift */; };
+		65EE7BA0164B581BC36C8CBE /* TunnelConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51211E23E340B1809F50ADEF /* TunnelConfiguration.swift */; };
+		6F5E7466EA4CC2AFE9F68530 /* ConnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE7AC8330850EED132004B /* ConnectButton.swift */; };
+		7736A03CCE8543F16B9D8EF3 /* HopTunnel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E690C0923A52701320479379 /* HopTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7902FF853A03AD9D2EDB486D /* TunnelConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51211E23E340B1809F50ADEF /* TunnelConfiguration.swift */; };
+		7BA2E9E5CEBADD58DFF17DAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3303E150BF1DF5F9CAC57775 /* Assets.xcassets */; };
+		81E4AFE49F61A9A79C0D096A /* VPNController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8ACBBA027D3EB6A35A96BD /* VPNController.swift */; };
+		83D27CF47858987731ABC2A8 /* IPAddress+AddrInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91692E5C45C67C284A166C1C /* IPAddress+AddrInfo.swift */; };
+		857F52DF75F55C7C8C4AE09B /* HopTunnel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EA97F46CB973BF7F7A4C96EC /* HopTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		889051656FE45DDE7A7AE39C /* TunnelKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D0455AF7EF97FCE5D5F33C /* TunnelKeys.swift */; };
+		897064B2C25DE51E7014D477 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95BBF918472EC804784BC2 /* PacketTunnelProvider.swift */; };
+		92CF7B2CF303C47CF91722EA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92960A37E18DA80432AFAA37 /* HomeView.swift */; };
+		966D0D5A75967CF636411E93 /* VPNController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8ACBBA027D3EB6A35A96BD /* VPNController.swift */; };
+		99564E16C4ACA13067B9FDB7 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95BBF918472EC804784BC2 /* PacketTunnelProvider.swift */; };
+		9FB6C0594A76C090700C6E8A /* CountryDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA204DAD613D72E81462021 /* CountryDetector.swift */; };
+		A015AF3E2FEAC00711822381 /* AddServerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEC474C729B7CADD5FFF265 /* AddServerView.swift */; };
+		ADA926B3C306B75BC047F336 /* WireGuardConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BDB0284B69BD6B2451A3 /* WireGuardConfig.swift */; };
+		B816672C842FE4C2AE229DE3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92960A37E18DA80432AFAA37 /* HomeView.swift */; };
+		B971C2A4ABFDE2B7B83A733A /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADDE453E47A4B9F913F56A2 /* Country.swift */; };
+		BC1F207B2D5E3839DF88B7DC /* PeerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F891EECE080D0778FD4CC2 /* PeerConfiguration.swift */; };
+		BD7C41C83FFC2E64C211D62E /* AddServerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEC474C729B7CADD5FFF265 /* AddServerView.swift */; };
+		BDA8BED935D094D44EDFE174 /* ServerLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B572B8E1529856945E77276 /* ServerLibrary.swift */; };
+		BE99EBCA24E507E63EC216A8 /* TunnelKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D0455AF7EF97FCE5D5F33C /* TunnelKeys.swift */; };
+		C3E9BB7B3D2F160AC66DB64B /* WireGuardConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA479B654C51B0C31834080 /* WireGuardConfigTests.swift */; };
+		C4A1166ADCAA1CBE77DB448E /* libwg-go.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FF1C6F6C271B362DF4BCF7 /* libwg-go.a */; };
+		C6F0FE7944B66DD5D294E146 /* PeerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F891EECE080D0778FD4CC2 /* PeerConfiguration.swift */; };
+		C894946D55B92768CA0D53C8 /* PacketTunnelSettingsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C4E29529AC29FBB1BC4A9F /* PacketTunnelSettingsGenerator.swift */; };
+		CBB460B65ED9E86E84E5117B /* TunnelKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D0455AF7EF97FCE5D5F33C /* TunnelKeys.swift */; };
+		CDF9F089F36FC8024E9F6ED9 /* WireGuardConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BDB0284B69BD6B2451A3 /* WireGuardConfig.swift */; };
+		CFB15A21DE89001EE5588780 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDD470B1EC1942286165EA5 /* MenuBarView.swift */; };
+		CFFC92EE9A84F558D612D40A /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31585DBFDB796897AF95E785 /* PrivateKey.swift */; };
+		D1E38A808ED7E3425C61C48D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3303E150BF1DF5F9CAC57775 /* Assets.xcassets */; };
+		D2F81FB973C9040BCF0B0BC8 /* key.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F31698C9580FE827CC285E5 /* key.c */; };
+		D504C965762D89FFA85A104F /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0159C5B9F5660EF782DE0E /* AppModel.swift */; };
+		D6BB7C7C45F63E51E7EF44F5 /* libwg-go.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FF1C6F6C271B362DF4BCF7 /* libwg-go.a */; };
+		DA0F70515DA9F13A1A33E1BF /* x25519.c in Sources */ = {isa = PBXBuildFile; fileRef = 289F9DF9E8C58DE34249D5BD /* x25519.c */; };
+		DBB0B6A324734B2CFE6D9AED /* PacketTunnelSettingsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C4E29529AC29FBB1BC4A9F /* PacketTunnelSettingsGenerator.swift */; };
+		DBE8B28534CE83FDDEFBBE32 /* DNSServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34D26393A93482961899952 /* DNSServer.swift */; };
+		DD517B923773D59D76BF8D61 /* Array+ConcurrentMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889669EAF49DF1FF18DF1A49 /* Array+ConcurrentMap.swift */; };
+		DDB539ACCC3DC01DE1BF1BE5 /* TestFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585883F8BD25B2747A119CAF /* TestFixtures.swift */; };
+		DEE220B6D7BA8CF716F802FB /* WireGuardConfig+WireGuardKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B3AF42BD6944AC69C61BAB /* WireGuardConfig+WireGuardKit.swift */; };
+		E51BC1BE1017CAECB94E9FD8 /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31585DBFDB796897AF95E785 /* PrivateKey.swift */; };
+		E767B09BE4D0D6EBF5E3435A /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76E5EBE8E30BD616E4C50AA /* HelpView.swift */; };
+		E998CBBD066C443F520BCC60 /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231CB36E56A0C8915D8BF22C /* CountryPickerView.swift */; };
+		EB0F2C047087689A8C522057 /* ServerLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B572B8E1529856945E77276 /* ServerLibrary.swift */; };
+		EDF490285A4CD0CC6EF90480 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADDE453E47A4B9F913F56A2 /* Country.swift */; };
+		F4A9A26A3CCAE0A90F8EC1F7 /* InterfaceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BAE926C3ED0BB1C90880B9 /* InterfaceConfiguration.swift */; };
+		F745489DD3B85577D35F5346 /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231CB36E56A0C8915D8BF22C /* CountryPickerView.swift */; };
+		F9508EFF7320CF90E6ABB817 /* IPAddressRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B3F5F9A9A7EF3034C1FC2E /* IPAddressRange.swift */; };
+		FAD7B6E7AAE335CC8833E30A /* WireGuardConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BDB0284B69BD6B2451A3 /* WireGuardConfig.swift */; };
+		FE69AAA9FE96802ED1F0BFFF /* IPAddress+AddrInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91692E5C45C67C284A166C1C /* IPAddress+AddrInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		04DF880CC4021F11485DFC95 /* PBXContainerItemProxy */ = {
+		0C206F075D2CF224FDE3F410 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D8DDC739BCCCE4B03CF80DC1 /* Project object */;
+			containerPortal = 60CCB3E3F97B46754636B8B6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1CEB324492EE91E69AB65F37;
+			remoteGlobalIDString = 725F901EDC0EE03EC05F1256;
 			remoteInfo = "HopTunnel-macOS";
 		};
-		715C8C3B60780245F9B951EA /* PBXContainerItemProxy */ = {
+		1E3BC5E281166349BE756BAC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D8DDC739BCCCE4B03CF80DC1 /* Project object */;
+			containerPortal = 60CCB3E3F97B46754636B8B6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 44EEB9AC03ABA0F77861B773;
+			remoteGlobalIDString = 38003CFCF000402DF5D4D9D0;
 			remoteInfo = "HopTunnel-iOS";
 		};
-		C053EDCA3E9044655F1FA282 /* PBXContainerItemProxy */ = {
+		315EEC4CB8DB55478886C9BF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D8DDC739BCCCE4B03CF80DC1 /* Project object */;
+			containerPortal = 60CCB3E3F97B46754636B8B6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A575B099DE27D6F3ADF0CA69;
+			remoteGlobalIDString = 48CD6B9FEFD43F8A4770F7BE;
 			remoteInfo = WireGuardGoBridgemacOS;
 		};
-		F8ACEEC89DFD82550DC3BDAB /* PBXContainerItemProxy */ = {
+		4E5BC1E396DC4E2F1CA98B5D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D8DDC739BCCCE4B03CF80DC1 /* Project object */;
+			containerPortal = 60CCB3E3F97B46754636B8B6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BAD670E67D22F35E9C00FD56;
+			remoteGlobalIDString = 62ACB68A138578A37F491811;
 			remoteInfo = WireGuardGoBridgeiOS;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5F742CF5B114697274B45123 /* Embed Foundation Extensions */ = {
+		B9843C35F7779EE3769D0B48 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				BE2F246B6657368EAE026A77 /* HopTunnel.appex in Embed Foundation Extensions */,
+				7736A03CCE8543F16B9D8EF3 /* HopTunnel.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60FBD9A2AA71863E37474C71 /* Embed Foundation Extensions */ = {
+		DDAEE18DE6A59C85A40348AC /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				C71057A2C275314882AEBB7F /* HopTunnel.appex in Embed Foundation Extensions */,
+				857F52DF75F55C7C8C4AE09B /* HopTunnel.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,286 +146,355 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		001B48F6D5432060B33F7602 /* go.mod */ = {isa = PBXFileReference; includeInIndex = 1; path = go.mod; sourceTree = "<group>"; };
-		0E56C70DCA7907795A54460A /* ConnectButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConnectButton.swift; sourceTree = "<group>"; };
-		0FA1FE986D93C38347A355BE /* Hop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hop.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1055533E492821CD055F157F /* ServersView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ServersView.swift; sourceTree = "<group>"; };
-		109B893F876ED4174C8E8362 /* HopTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HopTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		10E0B83D799038E30C838E86 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1F7525096F73A22F5FE97930 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
-		2354E7294E729B8708B24CB3 /* TestFixtures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TestFixtures.swift; sourceTree = "<group>"; };
-		238F0BF08EEC9A5BC7F0F315 /* HopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E3DF8FA7DF6ACA678929A14 /* VPNController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VPNController.swift; sourceTree = "<group>"; };
-		32AF0969F2856F977F4FF33C /* CountryDetectorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryDetectorTests.swift; sourceTree = "<group>"; };
-		33ED227A73D6E17065B54B6F /* go.sum */ = {isa = PBXFileReference; includeInIndex = 1; path = go.sum; sourceTree = "<group>"; };
-		38A894C0D65417CDE6ED1D0B /* MenuBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
-		4B77C71BEAF30240B6EE53EA /* Hop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hop.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BE5F14D276E077A6B2B3F9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6164898064FA1546FD7E4034 /* Makefile */ = {isa = PBXFileReference; includeInIndex = 1; path = Makefile; sourceTree = "<group>"; };
-		647DFEBEDAE64073936F5B73 /* WireGuardConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WireGuardConfig.swift; sourceTree = "<group>"; };
-		64E407C8399B2D73B3AB4DCD /* Config.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
-		6A48500AE508D00BCF419FB6 /* Hop.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = Hop.entitlements; sourceTree = "<group>"; };
-		721A5387858E1C41700B8F11 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		764A5446583C1FDACF42B9AC /* TunnelKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TunnelKeys.swift; sourceTree = "<group>"; };
-		793F25AEB3E7B7A8B593CCC1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		79E2F8B855D34DD15A1C24E6 /* AppModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
-		7C66AF2AA8D67E195649053A /* Country.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
-		922DD67C58A154D6CFC5A293 /* HelpView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
-		9F2BB33F66A7BDB26BAC02B7 /* HopTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HopTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F9C1DE3C20033EB432B4950 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		AA4CBBB357CE547B5D16EADD /* HopTunnel.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = HopTunnel.entitlements; sourceTree = "<group>"; };
-		AC4528667FF3857CA9AAF8C8 /* HopTunnel.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = HopTunnel.entitlements; sourceTree = "<group>"; };
-		AEE4D9479E8C6594B13A28EF /* AddServerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddServerView.swift; sourceTree = "<group>"; };
-		B0F5B53E05C4398F193EF5E8 /* CountryPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
-		B45D66B5F9D86A178F82F722 /* HomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		C0D326BFD768FE28C808EFDC /* WireGuardConfigTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WireGuardConfigTests.swift; sourceTree = "<group>"; };
-		C75D6A3B0B2491E07DB3CF87 /* ServerLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ServerLibrary.swift; sourceTree = "<group>"; };
-		CB569BEFC74B1E35D97E9192 /* Hop.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = Hop.entitlements; sourceTree = "<group>"; };
-		D15052F92E50059564555F67 /* ServerLibraryTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ServerLibraryTests.swift; sourceTree = "<group>"; };
-		D4C1F4C23834719B5FA53042 /* HopApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HopApp.swift; sourceTree = "<group>"; };
-		DFFDD6D1688D0EF91366D418 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E148FE1E256392BE134AE96D /* api-apple.go */ = {isa = PBXFileReference; includeInIndex = 1; path = "api-apple.go"; sourceTree = "<group>"; };
-		E4A1F24A8CE00990FC990276 /* CountryDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryDetector.swift; sourceTree = "<group>"; };
-		EEFCC350623A22E3C500ADCE /* goruntime-boottime-over-monotonic.diff */ = {isa = PBXFileReference; includeInIndex = 1; path = "goruntime-boottime-over-monotonic.diff"; sourceTree = "<group>"; };
-		FD36477389187AF88734B0B0 /* WireGuardConfig+WireGuardKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "WireGuardConfig+WireGuardKit.swift"; sourceTree = "<group>"; };
+		0B572B8E1529856945E77276 /* ServerLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ServerLibrary.swift; sourceTree = "<group>"; };
+		0BA204DAD613D72E81462021 /* CountryDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryDetector.swift; sourceTree = "<group>"; };
+		0BABDDDA4007C99F86667E99 /* Hop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		107B9A979426838FD48A65BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231CB36E56A0C8915D8BF22C /* CountryPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
+		276443B59834516810F7270F /* api-apple.go */ = {isa = PBXFileReference; includeInIndex = 1; path = "api-apple.go"; sourceTree = "<group>"; };
+		289F9DF9E8C58DE34249D5BD /* x25519.c */ = {isa = PBXFileReference; includeInIndex = 1; path = x25519.c; sourceTree = "<group>"; };
+		2BEC474C729B7CADD5FFF265 /* AddServerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddServerView.swift; sourceTree = "<group>"; };
+		2F3318CAAD8A8E3915518D36 /* go.sum */ = {isa = PBXFileReference; includeInIndex = 1; path = go.sum; sourceTree = "<group>"; };
+		31585DBFDB796897AF95E785 /* PrivateKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrivateKey.swift; sourceTree = "<group>"; };
+		3303E150BF1DF5F9CAC57775 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A7CA668A10EE0604B90707A /* wireguard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = wireguard.h; sourceTree = "<group>"; };
+		3ADDE453E47A4B9F913F56A2 /* Country.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		3F95BBF918472EC804784BC2 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		4032A7654B65417C53E3B7A3 /* COPYING */ = {isa = PBXFileReference; includeInIndex = 1; path = COPYING; sourceTree = "<group>"; };
+		434D421ECDFB25F247ACD212 /* Hop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAE7AC8330850EED132004B /* ConnectButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConnectButton.swift; sourceTree = "<group>"; };
+		4FDD470B1EC1942286165EA5 /* MenuBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		50BAE926C3ED0BB1C90880B9 /* InterfaceConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InterfaceConfiguration.swift; sourceTree = "<group>"; };
+		51211E23E340B1809F50ADEF /* TunnelConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TunnelConfiguration.swift; sourceTree = "<group>"; };
+		54D0455AF7EF97FCE5D5F33C /* TunnelKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TunnelKeys.swift; sourceTree = "<group>"; };
+		56361B6F75F20F3CDE597ADC /* Makefile */ = {isa = PBXFileReference; includeInIndex = 1; path = Makefile; sourceTree = "<group>"; };
+		585883F8BD25B2747A119CAF /* TestFixtures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TestFixtures.swift; sourceTree = "<group>"; };
+		58805FFE831A3CA84376C859 /* HopTunnel.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = HopTunnel.entitlements; sourceTree = "<group>"; };
+		5CE1A4870D4102BAF8D40AE4 /* key.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = key.h; sourceTree = "<group>"; };
+		62F891EECE080D0778FD4CC2 /* PeerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PeerConfiguration.swift; sourceTree = "<group>"; };
+		69D7820CA1C4CFAD2877CCFB /* DNSResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DNSResolver.swift; sourceTree = "<group>"; };
+		6B97578A392D8EC2C707FB51 /* HopTunnel-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HopTunnel-Bridging-Header.h"; sourceTree = "<group>"; };
+		6EA479B654C51B0C31834080 /* WireGuardConfigTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WireGuardConfigTests.swift; sourceTree = "<group>"; };
+		76C53717F7E42D520C20D631 /* Hop.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = Hop.entitlements; sourceTree = "<group>"; };
+		7F5F08FEA60F2363AEFE98DD /* x25519.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = x25519.h; sourceTree = "<group>"; };
+		889669EAF49DF1FF18DF1A49 /* Array+ConcurrentMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+ConcurrentMap.swift"; sourceTree = "<group>"; };
+		8B5F9B6B8975DF5B5884D02F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8F31698C9580FE827CC285E5 /* key.c */ = {isa = PBXFileReference; includeInIndex = 1; path = key.c; sourceTree = "<group>"; };
+		91692E5C45C67C284A166C1C /* IPAddress+AddrInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "IPAddress+AddrInfo.swift"; sourceTree = "<group>"; };
+		92960A37E18DA80432AFAA37 /* HomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		932C46D15B6D984D488E470D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		949BBAFC1F997DFEA54C1495 /* HopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8ACBBA027D3EB6A35A96BD /* VPNController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VPNController.swift; sourceTree = "<group>"; };
+		A94532CCA78CD811DEE05EB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AC0993C4D722E93A0CC8F950 /* Endpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		B2B6779437F031CDCA093D7C /* HopTunnel.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = HopTunnel.entitlements; sourceTree = "<group>"; };
+		C9FF1C6F6C271B362DF4BCF7 /* libwg-go.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libwg-go.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFC888B80D5ED12D62CE80A /* WireGuardAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WireGuardAdapter.swift; sourceTree = "<group>"; };
+		D380068A7B37E48156EC00C8 /* Hop.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = Hop.entitlements; sourceTree = "<group>"; };
+		D7B3F5F9A9A7EF3034C1FC2E /* IPAddressRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPAddressRange.swift; sourceTree = "<group>"; };
+		D8A25DE91200251062BA964B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		E34D26393A93482961899952 /* DNSServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DNSServer.swift; sourceTree = "<group>"; };
+		E3C4E29529AC29FBB1BC4A9F /* PacketTunnelSettingsGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PacketTunnelSettingsGenerator.swift; sourceTree = "<group>"; };
+		E690C0923A52701320479379 /* HopTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HopTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75597FFABE4E92901F55A54 /* goruntime-boottime-over-monotonic.diff */ = {isa = PBXFileReference; includeInIndex = 1; path = "goruntime-boottime-over-monotonic.diff"; sourceTree = "<group>"; };
+		EA97F46CB973BF7F7A4C96EC /* HopTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HopTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0B80CC7400D55612326396 /* WireGuardKitC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WireGuardKitC.h; sourceTree = "<group>"; };
+		ED6F1DB92F95EB919072C7ED /* go.mod */ = {isa = PBXFileReference; includeInIndex = 1; path = go.mod; sourceTree = "<group>"; };
+		EF0159C5B9F5660EF782DE0E /* AppModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		EF27041D0F7B4BD8C0DD0288 /* ServersView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ServersView.swift; sourceTree = "<group>"; };
+		F1B3AF42BD6944AC69C61BAB /* WireGuardConfig+WireGuardKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "WireGuardConfig+WireGuardKit.swift"; sourceTree = "<group>"; };
+		F221FA5812E4DBB800CDF58D /* CountryDetectorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryDetectorTests.swift; sourceTree = "<group>"; };
+		F694BDB0284B69BD6B2451A3 /* WireGuardConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WireGuardConfig.swift; sourceTree = "<group>"; };
+		F76E5EBE8E30BD616E4C50AA /* HelpView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		F92BA08F48E1F8E944C61999 /* Config.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		FA460D9BF17FD13353952054 /* HopApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HopApp.swift; sourceTree = "<group>"; };
+		FEDD99CF96E8436299ACD128 /* ServerLibraryTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ServerLibraryTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		335DE9F2D1BBC609A87E2F0E /* Frameworks */ = {
+		1D15386CF6D8B4C1C0F62279 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42F1E3BF538CD9F1F9D5D691 /* Frameworks */ = {
+		641C7AA3DDA8D78405F9380C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F46AD86CAFE4446C8104590 /* Frameworks */ = {
+		8F66944EB2C0A214324A2BF4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC4678F3E7F586DFEC8A0634 /* Frameworks */ = {
+		AE9221770571024B4202E439 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6018C37965C29F035B53E257 /* WireGuardKit in Frameworks */,
+				D6BB7C7C45F63E51E7EF44F5 /* libwg-go.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D28CEA598C31344D0C2E7CEE /* Frameworks */ = {
+		EF64E2CD171D0F556ACF32C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE37017B46C6859E046FDB99 /* WireGuardKit in Frameworks */,
+				C4A1166ADCAA1CBE77DB448E /* libwg-go.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11D980B7B4745FEE9A1C11E2 /* Views */ = {
+		12547D79F8A669784C71B569 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				AEE4D9479E8C6594B13A28EF /* AddServerView.swift */,
-				0E56C70DCA7907795A54460A /* ConnectButton.swift */,
-				B0F5B53E05C4398F193EF5E8 /* CountryPickerView.swift */,
-				922DD67C58A154D6CFC5A293 /* HelpView.swift */,
-				B45D66B5F9D86A178F82F722 /* HomeView.swift */,
-				1055533E492821CD055F157F /* ServersView.swift */,
+				889669EAF49DF1FF18DF1A49 /* Array+ConcurrentMap.swift */,
+				69D7820CA1C4CFAD2877CCFB /* DNSResolver.swift */,
+				E34D26393A93482961899952 /* DNSServer.swift */,
+				AC0993C4D722E93A0CC8F950 /* Endpoint.swift */,
+				50BAE926C3ED0BB1C90880B9 /* InterfaceConfiguration.swift */,
+				91692E5C45C67C284A166C1C /* IPAddress+AddrInfo.swift */,
+				D7B3F5F9A9A7EF3034C1FC2E /* IPAddressRange.swift */,
+				E3C4E29529AC29FBB1BC4A9F /* PacketTunnelSettingsGenerator.swift */,
+				62F891EECE080D0778FD4CC2 /* PeerConfiguration.swift */,
+				31585DBFDB796897AF95E785 /* PrivateKey.swift */,
+				51211E23E340B1809F50ADEF /* TunnelConfiguration.swift */,
+				CDFC888B80D5ED12D62CE80A /* WireGuardAdapter.swift */,
 			);
-			name = Views;
-			path = Views;
+			name = Swift;
+			path = Swift;
 			sourceTree = "<group>";
 		};
-		20E1602C70BE6FE6E9ACB629 /* Tests */ = {
+		1B640D5279C653793DFE5E47 /* Go */ = {
 			isa = PBXGroup;
 			children = (
-				32AF0969F2856F977F4FF33C /* CountryDetectorTests.swift */,
-				D15052F92E50059564555F67 /* ServerLibraryTests.swift */,
-				2354E7294E729B8708B24CB3 /* TestFixtures.swift */,
-				C0D326BFD768FE28C808EFDC /* WireGuardConfigTests.swift */,
+				276443B59834516810F7270F /* api-apple.go */,
+				ED6F1DB92F95EB919072C7ED /* go.mod */,
+				2F3318CAAD8A8E3915518D36 /* go.sum */,
+				E75597FFABE4E92901F55A54 /* goruntime-boottime-over-monotonic.diff */,
+				56361B6F75F20F3CDE597ADC /* Makefile */,
+				3A7CA668A10EE0604B90707A /* wireguard.h */,
+			);
+			name = Go;
+			path = Go;
+			sourceTree = "<group>";
+		};
+		1FBD40D93FF289CD034F04F1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A94532CCA78CD811DEE05EB0 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		41F4BD5820ACA0CBED28108B /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F221FA5812E4DBB800CDF58D /* CountryDetectorTests.swift */,
+				FEDD99CF96E8436299ACD128 /* ServerLibraryTests.swift */,
+				585883F8BD25B2747A119CAF /* TestFixtures.swift */,
+				6EA479B654C51B0C31834080 /* WireGuardConfigTests.swift */,
 			);
 			name = Tests;
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		22842B828C1D3AC77E2E8BE8 /* OS X */ = {
+		4C23352AF600E5B4AD503496 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				721A5387858E1C41700B8F11 /* Cocoa.framework */,
-			);
-			name = "OS X";
-			sourceTree = "<group>";
-		};
-		291BD0FD1460371E73B55D73 = {
-			isa = PBXGroup;
-			children = (
-				54053705565519C0A8646A91 /* App */,
-				EF42E777F16564D7AAEBF970 /* Frameworks */,
-				7E997925F05BFFDEEB8332F3 /* Products */,
-				CD3110BFFC858BE8BD261D70 /* Shared */,
-				20E1602C70BE6FE6E9ACB629 /* Tests */,
-				B2014EFB85BE6AE9032BF1F3 /* Tunnel */,
-				46B083AB83CAB357EFD1DE8D /* WireGuardGoBridge */,
-				64E407C8399B2D73B3AB4DCD /* Config.xcconfig */,
-				793F25AEB3E7B7A8B593CCC1 /* README.md */,
-			);
-			sourceTree = "<group>";
-		};
-		46B083AB83CAB357EFD1DE8D /* WireGuardGoBridge */ = {
-			isa = PBXGroup;
-			children = (
-				E148FE1E256392BE134AE96D /* api-apple.go */,
-				001B48F6D5432060B33F7602 /* go.mod */,
-				33ED227A73D6E17065B54B6F /* go.sum */,
-				EEFCC350623A22E3C500ADCE /* goruntime-boottime-over-monotonic.diff */,
-				6164898064FA1546FD7E4034 /* Makefile */,
-				DFFDD6D1688D0EF91366D418 /* README.md */,
-			);
-			name = WireGuardGoBridge;
-			path = WireGuardGoBridge;
-			sourceTree = "<group>";
-		};
-		495769624782582F7FF29450 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CB569BEFC74B1E35D97E9192 /* Hop.entitlements */,
-			);
-			name = iOS;
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		54053705565519C0A8646A91 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				495769624782582F7FF29450 /* iOS */,
-				AF3EE130E1544194F3EBD52A /* macOS */,
-				11D980B7B4745FEE9A1C11E2 /* Views */,
-				79E2F8B855D34DD15A1C24E6 /* AppModel.swift */,
-				10E0B83D799038E30C838E86 /* Assets.xcassets */,
-				D4C1F4C23834719B5FA53042 /* HopApp.swift */,
-				2E3DF8FA7DF6ACA678929A14 /* VPNController.swift */,
+				CDB7E1CD15B0A7B0101CF1FD /* iOS */,
+				B9E9F65A2D22E14B20578BF2 /* macOS */,
+				CB1BC1D7E4CE8A90303337E8 /* Views */,
+				EF0159C5B9F5660EF782DE0E /* AppModel.swift */,
+				3303E150BF1DF5F9CAC57775 /* Assets.xcassets */,
+				FA460D9BF17FD13353952054 /* HopApp.swift */,
+				9C8ACBBA027D3EB6A35A96BD /* VPNController.swift */,
 			);
 			name = App;
 			path = App;
 			sourceTree = "<group>";
 		};
-		6D907D0E1C90857BC2AADB7C /* iOS */ = {
+		51528612404F8F3D78397651 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				9F9C1DE3C20033EB432B4950 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		70C4D5495A7432A820FD6D69 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				AA4CBBB357CE547B5D16EADD /* HopTunnel.entitlements */,
-			);
-			name = macOS;
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		7E997925F05BFFDEEB8332F3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0FA1FE986D93C38347A355BE /* Hop.app */,
-				4B77C71BEAF30240B6EE53EA /* Hop.app */,
-				238F0BF08EEC9A5BC7F0F315 /* HopTests.xctest */,
-				9F2BB33F66A7BDB26BAC02B7 /* HopTunnel.appex */,
-				109B893F876ED4174C8E8362 /* HopTunnel.appex */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		96591045C2FCB053EF838EF5 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				AC4528667FF3857CA9AAF8C8 /* HopTunnel.entitlements */,
-			);
-			name = iOS;
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		AF3EE130E1544194F3EBD52A /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				6A48500AE508D00BCF419FB6 /* Hop.entitlements */,
-				38A894C0D65417CDE6ED1D0B /* MenuBarView.swift */,
-			);
-			name = macOS;
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		B2014EFB85BE6AE9032BF1F3 /* Tunnel */ = {
-			isa = PBXGroup;
-			children = (
-				96591045C2FCB053EF838EF5 /* iOS */,
-				70C4D5495A7432A820FD6D69 /* macOS */,
-				4BE5F14D276E077A6B2B3F9F /* Info.plist */,
-				1F7525096F73A22F5FE97930 /* PacketTunnelProvider.swift */,
-				FD36477389187AF88734B0B0 /* WireGuardConfig+WireGuardKit.swift */,
-			);
-			name = Tunnel;
-			path = Tunnel;
-			sourceTree = "<group>";
-		};
-		CD3110BFFC858BE8BD261D70 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				7C66AF2AA8D67E195649053A /* Country.swift */,
-				E4A1F24A8CE00990FC990276 /* CountryDetector.swift */,
-				C75D6A3B0B2491E07DB3CF87 /* ServerLibrary.swift */,
-				764A5446583C1FDACF42B9AC /* TunnelKeys.swift */,
-				647DFEBEDAE64073936F5B73 /* WireGuardConfig.swift */,
+				3ADDE453E47A4B9F913F56A2 /* Country.swift */,
+				0BA204DAD613D72E81462021 /* CountryDetector.swift */,
+				0B572B8E1529856945E77276 /* ServerLibrary.swift */,
+				54D0455AF7EF97FCE5D5F33C /* TunnelKeys.swift */,
+				F694BDB0284B69BD6B2451A3 /* WireGuardConfig.swift */,
 			);
 			name = Shared;
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		EF42E777F16564D7AAEBF970 /* Frameworks */ = {
+		691B436951702D9F3A34A1AC /* WireGuardKit */ = {
 			isa = PBXGroup;
 			children = (
-				6D907D0E1C90857BC2AADB7C /* iOS */,
-				22842B828C1D3AC77E2E8BE8 /* OS X */,
+				8912655722612C6D83C729FC /* C */,
+				1B640D5279C653793DFE5E47 /* Go */,
+				12547D79F8A669784C71B569 /* Swift */,
+				4032A7654B65417C53E3B7A3 /* COPYING */,
+				8B5F9B6B8975DF5B5884D02F /* README.md */,
+			);
+			name = WireGuardKit;
+			path = WireGuardKit;
+			sourceTree = "<group>";
+		};
+		6F2214B13D26AE72F79ACE83 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B2B6779437F031CDCA093D7C /* HopTunnel.entitlements */,
+			);
+			name = iOS;
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		8912655722612C6D83C729FC /* C */ = {
+			isa = PBXGroup;
+			children = (
+				8F31698C9580FE827CC285E5 /* key.c */,
+				5CE1A4870D4102BAF8D40AE4 /* key.h */,
+				ED0B80CC7400D55612326396 /* WireGuardKitC.h */,
+				289F9DF9E8C58DE34249D5BD /* x25519.c */,
+				7F5F08FEA60F2363AEFE98DD /* x25519.h */,
+			);
+			name = C;
+			path = C;
+			sourceTree = "<group>";
+		};
+		8B560BB762417BAF486A6DC7 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				58805FFE831A3CA84376C859 /* HopTunnel.entitlements */,
+			);
+			name = macOS;
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		9390FBDCF405CAAA813B59BE /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				D8A25DE91200251062BA964B /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		B9E9F65A2D22E14B20578BF2 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D380068A7B37E48156EC00C8 /* Hop.entitlements */,
+				4FDD470B1EC1942286165EA5 /* MenuBarView.swift */,
+			);
+			name = macOS;
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		C58EB5A2749DEB119B3838ED /* Tunnel */ = {
+			isa = PBXGroup;
+			children = (
+				6F2214B13D26AE72F79ACE83 /* iOS */,
+				8B560BB762417BAF486A6DC7 /* macOS */,
+				6B97578A392D8EC2C707FB51 /* HopTunnel-Bridging-Header.h */,
+				107B9A979426838FD48A65BB /* Info.plist */,
+				3F95BBF918472EC804784BC2 /* PacketTunnelProvider.swift */,
+				F1B3AF42BD6944AC69C61BAB /* WireGuardConfig+WireGuardKit.swift */,
+			);
+			name = Tunnel;
+			path = Tunnel;
+			sourceTree = "<group>";
+		};
+		CB1BC1D7E4CE8A90303337E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2BEC474C729B7CADD5FFF265 /* AddServerView.swift */,
+				4AAE7AC8330850EED132004B /* ConnectButton.swift */,
+				231CB36E56A0C8915D8BF22C /* CountryPickerView.swift */,
+				F76E5EBE8E30BD616E4C50AA /* HelpView.swift */,
+				92960A37E18DA80432AFAA37 /* HomeView.swift */,
+				EF27041D0F7B4BD8C0DD0288 /* ServersView.swift */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDB7E1CD15B0A7B0101CF1FD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				76C53717F7E42D520C20D631 /* Hop.entitlements */,
+			);
+			name = iOS;
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		CEC01640EAAB7865BF6C1058 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FBD40D93FF289CD034F04F1 /* iOS */,
+				9390FBDCF405CAAA813B59BE /* OS X */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1C59EB7D2E0E33A2485F7DD = {
+			isa = PBXGroup;
+			children = (
+				4C23352AF600E5B4AD503496 /* App */,
+				CEC01640EAAB7865BF6C1058 /* Frameworks */,
+				F64299E3E5809A2B8B128B96 /* Products */,
+				51528612404F8F3D78397651 /* Shared */,
+				41F4BD5820ACA0CBED28108B /* Tests */,
+				C58EB5A2749DEB119B3838ED /* Tunnel */,
+				691B436951702D9F3A34A1AC /* WireGuardKit */,
+				F92BA08F48E1F8E944C61999 /* Config.xcconfig */,
+				932C46D15B6D984D488E470D /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		F64299E3E5809A2B8B128B96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BABDDDA4007C99F86667E99 /* Hop.app */,
+				434D421ECDFB25F247ACD212 /* Hop.app */,
+				949BBAFC1F997DFEA54C1495 /* HopTests.xctest */,
+				E690C0923A52701320479379 /* HopTunnel.appex */,
+				EA97F46CB973BF7F7A4C96EC /* HopTunnel.appex */,
+				C9FF1C6F6C271B362DF4BCF7 /* libwg-go.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		A575B099DE27D6F3ADF0CA69 /* WireGuardGoBridgemacOS */ = {
+		48CD6B9FEFD43F8A4770F7BE /* WireGuardGoBridgemacOS */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION)";
-			buildConfigurationList = 27436F5853695554B4BAABFC /* Build configuration list for PBXLegacyTarget "WireGuardGoBridgemacOS" */;
+			buildConfigurationList = 726A8ABF547BA4CD93AC91AC /* Build configuration list for PBXLegacyTarget "WireGuardGoBridgemacOS" */;
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
-			buildWorkingDirectory = "$(PROJECT_DIR)/WireGuardGoBridge";
+			buildWorkingDirectory = "$(PROJECT_DIR)/WireGuardKit/Go";
 			dependencies = (
 			);
 			name = WireGuardGoBridgemacOS;
 			passBuildSettingsInEnvironment = 1;
 			productName = WireGuardGoBridgemacOS;
 		};
-		BAD670E67D22F35E9C00FD56 /* WireGuardGoBridgeiOS */ = {
+		62ACB68A138578A37F491811 /* WireGuardGoBridgeiOS */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION)";
-			buildConfigurationList = D3478EE8A4B51DBE47239A3E /* Build configuration list for PBXLegacyTarget "WireGuardGoBridgeiOS" */;
+			buildConfigurationList = EBE0B4D37DF211CAC8C324B5 /* Build configuration list for PBXLegacyTarget "WireGuardGoBridgeiOS" */;
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
-			buildWorkingDirectory = "$(PROJECT_DIR)/WireGuardGoBridge";
+			buildWorkingDirectory = "$(PROJECT_DIR)/WireGuardKit/Go";
 			dependencies = (
 			);
 			name = WireGuardGoBridgeiOS;
@@ -407,74 +504,87 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		1CEB324492EE91E69AB65F37 /* HopTunnel-macOS */ = {
+		38003CFCF000402DF5D4D9D0 /* HopTunnel-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6470D7D87DBE1C73A09C102B /* Build configuration list for PBXNativeTarget "HopTunnel-macOS" */;
+			buildConfigurationList = 57A3C1FC34744E6E10B852D8 /* Build configuration list for PBXNativeTarget "HopTunnel-iOS" */;
 			buildPhases = (
-				C776ED061E304C9BCF45AEB3 /* Sources */,
-				D28CEA598C31344D0C2E7CEE /* Frameworks */,
-				0EE83B5663EC13F18795888C /* Resources */,
+				739BAB4B70B2DD989A199784 /* Sources */,
+				AE9221770571024B4202E439 /* Frameworks */,
+				D0051EAA94714BA230BE1BE0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D76C0BF1BA76C17285F06449 /* PBXTargetDependency */,
+				B11D7A09AD9FEF8719132C56 /* PBXTargetDependency */,
 			);
-			name = "HopTunnel-macOS";
-			packageProductDependencies = (
-				03E299DC7273867F93A33443 /* WireGuardKit */,
-			);
+			name = "HopTunnel-iOS";
 			productName = HopTunnel;
-			productReference = 109B893F876ED4174C8E8362 /* HopTunnel.appex */;
+			productReference = E690C0923A52701320479379 /* HopTunnel.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		1E6EED684E0E2879519CDD6F /* Hop-iOS */ = {
+		50D98ADD7488BA2D413E39F2 /* Hop-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C42D1A587B3FCBAFA5D5531D /* Build configuration list for PBXNativeTarget "Hop-iOS" */;
+			buildConfigurationList = A7471EAD1164A39CFFC454B8 /* Build configuration list for PBXNativeTarget "Hop-macOS" */;
 			buildPhases = (
-				8452E885BA9444E2EDCAC401 /* Sources */,
-				335DE9F2D1BBC609A87E2F0E /* Frameworks */,
-				D5CCEB8FBE3F776813D87C71 /* Resources */,
-				5F742CF5B114697274B45123 /* Embed Foundation Extensions */,
+				10FDCF690AEC39B16AD318B2 /* Sources */,
+				1D15386CF6D8B4C1C0F62279 /* Frameworks */,
+				213887A0990621544DBDB8B9 /* Resources */,
+				DDAEE18DE6A59C85A40348AC /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CC7E23AC42DF3BC2692D6936 /* PBXTargetDependency */,
+				68E994A17D251A917742D2F6 /* PBXTargetDependency */,
+			);
+			name = "Hop-macOS";
+			productName = Hop;
+			productReference = 434D421ECDFB25F247ACD212 /* Hop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		725F901EDC0EE03EC05F1256 /* HopTunnel-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F4B21F60EFEAB2E54F3359 /* Build configuration list for PBXNativeTarget "HopTunnel-macOS" */;
+			buildPhases = (
+				EC111143D2233DEB4C5A54F8 /* Sources */,
+				EF64E2CD171D0F556ACF32C2 /* Frameworks */,
+				520E8700592AF1E08B42D02D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C157F9E23D01B26FD94ABC3 /* PBXTargetDependency */,
+			);
+			name = "HopTunnel-macOS";
+			productName = HopTunnel;
+			productReference = EA97F46CB973BF7F7A4C96EC /* HopTunnel.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AA8C2F0C8F01D699C513EBC9 /* Hop-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25A8E208F050D79F5DEE113 /* Build configuration list for PBXNativeTarget "Hop-iOS" */;
+			buildPhases = (
+				FBC82E21DCDCE9E9D8A8C963 /* Sources */,
+				8F66944EB2C0A214324A2BF4 /* Frameworks */,
+				73D5D85EAACE2DECF4EBEE55 /* Resources */,
+				B9843C35F7779EE3769D0B48 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03B8A82FB2916CEE28521DC1 /* PBXTargetDependency */,
 			);
 			name = "Hop-iOS";
 			productName = Hop;
-			productReference = 0FA1FE986D93C38347A355BE /* Hop.app */;
+			productReference = 0BABDDDA4007C99F86667E99 /* Hop.app */;
 			productType = "com.apple.product-type.application";
 		};
-		44EEB9AC03ABA0F77861B773 /* HopTunnel-iOS */ = {
+		CEF87537128B3AFB44B0184D /* HopTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6285B8C80FD15DD2F08E0BCA /* Build configuration list for PBXNativeTarget "HopTunnel-iOS" */;
+			buildConfigurationList = FF5068E983A385EE45B83E40 /* Build configuration list for PBXNativeTarget "HopTests" */;
 			buildPhases = (
-				745237B41A912D92B58D08F2 /* Sources */,
-				AC4678F3E7F586DFEC8A0634 /* Frameworks */,
-				998A26AC47ECC24C9EEBD944 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F024FB14A994B1CC31B575E8 /* PBXTargetDependency */,
-			);
-			name = "HopTunnel-iOS";
-			packageProductDependencies = (
-				FAC3EBB6149D79D89A0361BA /* WireGuardKit */,
-			);
-			productName = HopTunnel;
-			productReference = 9F2BB33F66A7BDB26BAC02B7 /* HopTunnel.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		CACF71D98650A0AE2777FBE3 /* HopTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1B3296D6FC99355202E4CA67 /* Build configuration list for PBXNativeTarget "HopTests" */;
-			buildPhases = (
-				B45E80E1ED349F0594A58B11 /* Sources */,
-				9F46AD86CAFE4446C8104590 /* Frameworks */,
-				62F44C47A668AB6C1711F8C9 /* Resources */,
+				60F7289A99315C13E590636C /* Sources */,
+				641C7AA3DDA8D78405F9380C /* Frameworks */,
+				DF7DCB8E18E5100245CB7736 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -482,38 +592,19 @@
 			);
 			name = HopTests;
 			productName = HopTests;
-			productReference = 238F0BF08EEC9A5BC7F0F315 /* HopTests.xctest */;
+			productReference = 949BBAFC1F997DFEA54C1495 /* HopTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E7D73C92B3EA57B26DF9CCAF /* Hop-macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB98E3262E46039387ACCCBD /* Build configuration list for PBXNativeTarget "Hop-macOS" */;
-			buildPhases = (
-				4C7B421A2CBCAC5F5434DC2C /* Sources */,
-				42F1E3BF538CD9F1F9D5D691 /* Frameworks */,
-				F6779975A7FFC018902C2B7A /* Resources */,
-				60FBD9A2AA71863E37474C71 /* Embed Foundation Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E81EF210B47C299B5BF5604C /* PBXTargetDependency */,
-			);
-			name = "Hop-macOS";
-			productName = Hop;
-			productReference = 4B77C71BEAF30240B6EE53EA /* Hop.app */;
-			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D8DDC739BCCCE4B03CF80DC1 /* Project object */ = {
+		60CCB3E3F97B46754636B8B6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 			};
-			buildConfigurationList = 1A84A0E662D378CA4E3F9FD1 /* Build configuration list for PBXProject "Hop" */;
+			buildConfigurationList = 555639AFFCD0A62269C3DF78 /* Build configuration list for PBXProject "Hop" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -521,308 +612,205 @@
 				en,
 				Base,
 			);
-			mainGroup = 291BD0FD1460371E73B55D73;
+			mainGroup = E1C59EB7D2E0E33A2485F7DD;
 			minimizedProjectReferenceProxies = 0;
-			packageReferences = (
-				D762F6A7E93C64C86778C6F9 /* XCRemoteSwiftPackageReference "wireguard-apple" */,
-			);
 			preferredProjectObjectVersion = 100;
-			productRefGroup = 7E997925F05BFFDEEB8332F3 /* Products */;
+			productRefGroup = F64299E3E5809A2B8B128B96 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1E6EED684E0E2879519CDD6F /* Hop-iOS */,
-				E7D73C92B3EA57B26DF9CCAF /* Hop-macOS */,
-				CACF71D98650A0AE2777FBE3 /* HopTests */,
-				44EEB9AC03ABA0F77861B773 /* HopTunnel-iOS */,
-				1CEB324492EE91E69AB65F37 /* HopTunnel-macOS */,
-				BAD670E67D22F35E9C00FD56 /* WireGuardGoBridgeiOS */,
-				A575B099DE27D6F3ADF0CA69 /* WireGuardGoBridgemacOS */,
+				AA8C2F0C8F01D699C513EBC9 /* Hop-iOS */,
+				50D98ADD7488BA2D413E39F2 /* Hop-macOS */,
+				CEF87537128B3AFB44B0184D /* HopTests */,
+				38003CFCF000402DF5D4D9D0 /* HopTunnel-iOS */,
+				725F901EDC0EE03EC05F1256 /* HopTunnel-macOS */,
+				62ACB68A138578A37F491811 /* WireGuardGoBridgeiOS */,
+				48CD6B9FEFD43F8A4770F7BE /* WireGuardGoBridgemacOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0EE83B5663EC13F18795888C /* Resources */ = {
+		213887A0990621544DBDB8B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA2E9E5CEBADD58DFF17DAD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520E8700592AF1E08B42D02D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62F44C47A668AB6C1711F8C9 /* Resources */ = {
+		73D5D85EAACE2DECF4EBEE55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E38A808ED7E3425C61C48D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0051EAA94714BA230BE1BE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		998A26AC47ECC24C9EEBD944 /* Resources */ = {
+		DF7DCB8E18E5100245CB7736 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5CCEB8FBE3F776813D87C71 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				602DB4FD6508ACDDEAA04572 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F6779975A7FFC018902C2B7A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F8B9433D4EE24AF475C738C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4C7B421A2CBCAC5F5434DC2C /* Sources */ = {
+		10FDCF690AEC39B16AD318B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D212E22399627DBDEFFA907 /* AddServerView.swift in Sources */,
-				B68A16B65893266ADC26C934 /* AppModel.swift in Sources */,
-				23684E42F9E338205C0C3B19 /* ConnectButton.swift in Sources */,
-				99265FA555C07416BCBF767C /* Country.swift in Sources */,
-				586DCCF25841821CBFBFA5C2 /* CountryDetector.swift in Sources */,
-				FD4E86F5D343AED8A5117B7C /* CountryPickerView.swift in Sources */,
-				E5CAE315288F0F99B5CD3FE8 /* HelpView.swift in Sources */,
-				F0076A2C8E63125BC1D9EEE5 /* HomeView.swift in Sources */,
-				BADE63223E247BFA039A8DD3 /* HopApp.swift in Sources */,
-				4DFA5335C5EB2A5FF9BB73A8 /* MenuBarView.swift in Sources */,
-				D6C79DAEBF9E30A303632DE1 /* ServerLibrary.swift in Sources */,
-				026F31502746C887AABFAAE0 /* ServersView.swift in Sources */,
-				742C0B5B547EC6EF0D23FD95 /* TunnelKeys.swift in Sources */,
-				6F1C28A78E6F2FEF30A1D7CD /* VPNController.swift in Sources */,
-				E2D9795F7A93C63849E00F12 /* WireGuardConfig.swift in Sources */,
+				A015AF3E2FEAC00711822381 /* AddServerView.swift in Sources */,
+				D504C965762D89FFA85A104F /* AppModel.swift in Sources */,
+				13C33B0120B83359315FA851 /* ConnectButton.swift in Sources */,
+				0DF13FA7958786D024E2A43B /* Country.swift in Sources */,
+				9FB6C0594A76C090700C6E8A /* CountryDetector.swift in Sources */,
+				F745489DD3B85577D35F5346 /* CountryPickerView.swift in Sources */,
+				148A651917018E30BB673A46 /* HelpView.swift in Sources */,
+				92CF7B2CF303C47CF91722EA /* HomeView.swift in Sources */,
+				031EA113312FB1242113AE81 /* HopApp.swift in Sources */,
+				CFB15A21DE89001EE5588780 /* MenuBarView.swift in Sources */,
+				5B4F93B7E1B953ED6E760FDB /* ServerLibrary.swift in Sources */,
+				57509FE34A32CBF58A141D6E /* ServersView.swift in Sources */,
+				BE99EBCA24E507E63EC216A8 /* TunnelKeys.swift in Sources */,
+				81E4AFE49F61A9A79C0D096A /* VPNController.swift in Sources */,
+				4D617952EEBE98E6A5ACC2FE /* WireGuardConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		745237B41A912D92B58D08F2 /* Sources */ = {
+		60F7289A99315C13E590636C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				443F12542E3CBDC2F91E424E /* PacketTunnelProvider.swift in Sources */,
-				142BB2A37576C04705A91701 /* TunnelKeys.swift in Sources */,
-				BF4A2211C3469F01344603FE /* WireGuardConfig.swift in Sources */,
-				771378AB9C3952CCF8280D5E /* WireGuardConfig+WireGuardKit.swift in Sources */,
+				B971C2A4ABFDE2B7B83A733A /* Country.swift in Sources */,
+				5C0C46FDAF720FCD02816B1B /* CountryDetector.swift in Sources */,
+				552699CB01E9C09D9CDE03FE /* CountryDetectorTests.swift in Sources */,
+				EB0F2C047087689A8C522057 /* ServerLibrary.swift in Sources */,
+				0D99F7E0AD00DA47949A6F2B /* ServerLibraryTests.swift in Sources */,
+				DDB539ACCC3DC01DE1BF1BE5 /* TestFixtures.swift in Sources */,
+				CBB460B65ED9E86E84E5117B /* TunnelKeys.swift in Sources */,
+				FAD7B6E7AAE335CC8833E30A /* WireGuardConfig.swift in Sources */,
+				C3E9BB7B3D2F160AC66DB64B /* WireGuardConfigTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8452E885BA9444E2EDCAC401 /* Sources */ = {
+		739BAB4B70B2DD989A199784 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36B4A6FB85257DD5185B4F9C /* AddServerView.swift in Sources */,
-				5AC596FDE760F1D3ECC6AC92 /* AppModel.swift in Sources */,
-				9A34C8A3C71EAE46E494FD84 /* ConnectButton.swift in Sources */,
-				7DDC8571A95CB2FD311D6AA2 /* Country.swift in Sources */,
-				C9FBDBCAC31E132A5BA2F53E /* CountryDetector.swift in Sources */,
-				39701F24AD75A6D4904F35EE /* CountryPickerView.swift in Sources */,
-				A2AD7ACA6A1D0FB8089EDCFF /* HelpView.swift in Sources */,
-				CD644C010568992896B3F48C /* HomeView.swift in Sources */,
-				B61AAC3615DC19A9FD247B83 /* HopApp.swift in Sources */,
-				FC5A5BBB7AA1C4563674A67D /* ServerLibrary.swift in Sources */,
-				094A6D2A48057502C51BE81B /* ServersView.swift in Sources */,
-				9713E243A0AEE6E274939DFF /* TunnelKeys.swift in Sources */,
-				6CFFE440C901A8C2F9B62BD2 /* VPNController.swift in Sources */,
-				0277804BD4F8C25AB968C4F7 /* WireGuardConfig.swift in Sources */,
+				DD517B923773D59D76BF8D61 /* Array+ConcurrentMap.swift in Sources */,
+				4BBAE41C283A3E6939C8E8B5 /* DNSResolver.swift in Sources */,
+				4A21CECFF3F9F8023E3C65BC /* DNSServer.swift in Sources */,
+				65419B0012EB195208E9F1E3 /* Endpoint.swift in Sources */,
+				5EA799100418C6DA146B9320 /* InterfaceConfiguration.swift in Sources */,
+				83D27CF47858987731ABC2A8 /* IPAddress+AddrInfo.swift in Sources */,
+				F9508EFF7320CF90E6ABB817 /* IPAddressRange.swift in Sources */,
+				D2F81FB973C9040BCF0B0BC8 /* key.c in Sources */,
+				99564E16C4ACA13067B9FDB7 /* PacketTunnelProvider.swift in Sources */,
+				C894946D55B92768CA0D53C8 /* PacketTunnelSettingsGenerator.swift in Sources */,
+				BC1F207B2D5E3839DF88B7DC /* PeerConfiguration.swift in Sources */,
+				E51BC1BE1017CAECB94E9FD8 /* PrivateKey.swift in Sources */,
+				7902FF853A03AD9D2EDB486D /* TunnelConfiguration.swift in Sources */,
+				54C459858A481FFC5BC7521E /* TunnelKeys.swift in Sources */,
+				2ED1C4728F92C7D70C232D78 /* WireGuardAdapter.swift in Sources */,
+				ADA926B3C306B75BC047F336 /* WireGuardConfig.swift in Sources */,
+				105538D1D9EC19CF67569E83 /* WireGuardConfig+WireGuardKit.swift in Sources */,
+				1BA6E80D4ABF7C4D1516B2F4 /* x25519.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B45E80E1ED349F0594A58B11 /* Sources */ = {
+		EC111143D2233DEB4C5A54F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13A652D1293109E0B5FB54A4 /* Country.swift in Sources */,
-				D90158752C2849BC7D311C30 /* CountryDetector.swift in Sources */,
-				121D2E053A4B0549064E7015 /* CountryDetectorTests.swift in Sources */,
-				D78ACD121812040CA8E98EE4 /* ServerLibrary.swift in Sources */,
-				8BE0A540BBE446D796346115 /* ServerLibraryTests.swift in Sources */,
-				604BD21026A72634EF89642A /* TestFixtures.swift in Sources */,
-				5844DD8557A3341D2EECD32A /* TunnelKeys.swift in Sources */,
-				32BBAFE2879C47055032B406 /* WireGuardConfig.swift in Sources */,
-				D54849827C905B05E8D5D726 /* WireGuardConfigTests.swift in Sources */,
+				3BEF48D54E922DFB11D7F9B9 /* Array+ConcurrentMap.swift in Sources */,
+				53EC6EDB81E2738A54A95643 /* DNSResolver.swift in Sources */,
+				DBE8B28534CE83FDDEFBBE32 /* DNSServer.swift in Sources */,
+				0A2804FCF3135C197A9A0042 /* Endpoint.swift in Sources */,
+				F4A9A26A3CCAE0A90F8EC1F7 /* InterfaceConfiguration.swift in Sources */,
+				FE69AAA9FE96802ED1F0BFFF /* IPAddress+AddrInfo.swift in Sources */,
+				57AB8A81DDFB14F61052EB14 /* IPAddressRange.swift in Sources */,
+				1DEF0B712138496E4D37C590 /* key.c in Sources */,
+				897064B2C25DE51E7014D477 /* PacketTunnelProvider.swift in Sources */,
+				DBB0B6A324734B2CFE6D9AED /* PacketTunnelSettingsGenerator.swift in Sources */,
+				C6F0FE7944B66DD5D294E146 /* PeerConfiguration.swift in Sources */,
+				CFFC92EE9A84F558D612D40A /* PrivateKey.swift in Sources */,
+				65EE7BA0164B581BC36C8CBE /* TunnelConfiguration.swift in Sources */,
+				55D59377CD34ECED329F1F46 /* TunnelKeys.swift in Sources */,
+				2E774E1036597B5024C6ECCD /* WireGuardAdapter.swift in Sources */,
+				CDF9F089F36FC8024E9F6ED9 /* WireGuardConfig.swift in Sources */,
+				DEE220B6D7BA8CF716F802FB /* WireGuardConfig+WireGuardKit.swift in Sources */,
+				DA0F70515DA9F13A1A33E1BF /* x25519.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C776ED061E304C9BCF45AEB3 /* Sources */ = {
+		FBC82E21DCDCE9E9D8A8C963 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A1DF8812C956AC7D8EE783F /* PacketTunnelProvider.swift in Sources */,
-				0EE9E1C147F4E7CE213B0691 /* TunnelKeys.swift in Sources */,
-				37BDC6F80284B8E1D4D25CFA /* WireGuardConfig.swift in Sources */,
-				763C7D2E191DB90B04D70DBB /* WireGuardConfig+WireGuardKit.swift in Sources */,
+				BD7C41C83FFC2E64C211D62E /* AddServerView.swift in Sources */,
+				2DF8FE629BD1FC88599ED665 /* AppModel.swift in Sources */,
+				6F5E7466EA4CC2AFE9F68530 /* ConnectButton.swift in Sources */,
+				EDF490285A4CD0CC6EF90480 /* Country.swift in Sources */,
+				392F4FFD656E353BB15FBEAE /* CountryDetector.swift in Sources */,
+				E998CBBD066C443F520BCC60 /* CountryPickerView.swift in Sources */,
+				E767B09BE4D0D6EBF5E3435A /* HelpView.swift in Sources */,
+				B816672C842FE4C2AE229DE3 /* HomeView.swift in Sources */,
+				1E2336D4916F788E8C0C6179 /* HopApp.swift in Sources */,
+				BDA8BED935D094D44EDFE174 /* ServerLibrary.swift in Sources */,
+				0638A4BA7D9F6F5EF239317C /* ServersView.swift in Sources */,
+				889051656FE45DDE7A7AE39C /* TunnelKeys.swift in Sources */,
+				966D0D5A75967CF636411E93 /* VPNController.swift in Sources */,
+				213EA1872EFCA7744A5C3DEB /* WireGuardConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CC7E23AC42DF3BC2692D6936 /* PBXTargetDependency */ = {
+		03B8A82FB2916CEE28521DC1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "HopTunnel-iOS";
-			target = 44EEB9AC03ABA0F77861B773 /* HopTunnel-iOS */;
-			targetProxy = 715C8C3B60780245F9B951EA /* PBXContainerItemProxy */;
+			target = 38003CFCF000402DF5D4D9D0 /* HopTunnel-iOS */;
+			targetProxy = 1E3BC5E281166349BE756BAC /* PBXContainerItemProxy */;
 		};
-		D76C0BF1BA76C17285F06449 /* PBXTargetDependency */ = {
+		0C157F9E23D01B26FD94ABC3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WireGuardGoBridgemacOS;
-			target = A575B099DE27D6F3ADF0CA69 /* WireGuardGoBridgemacOS */;
-			targetProxy = C053EDCA3E9044655F1FA282 /* PBXContainerItemProxy */;
+			target = 48CD6B9FEFD43F8A4770F7BE /* WireGuardGoBridgemacOS */;
+			targetProxy = 315EEC4CB8DB55478886C9BF /* PBXContainerItemProxy */;
 		};
-		E81EF210B47C299B5BF5604C /* PBXTargetDependency */ = {
+		68E994A17D251A917742D2F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "HopTunnel-macOS";
-			target = 1CEB324492EE91E69AB65F37 /* HopTunnel-macOS */;
-			targetProxy = 04DF880CC4021F11485DFC95 /* PBXContainerItemProxy */;
+			target = 725F901EDC0EE03EC05F1256 /* HopTunnel-macOS */;
+			targetProxy = 0C206F075D2CF224FDE3F410 /* PBXContainerItemProxy */;
 		};
-		F024FB14A994B1CC31B575E8 /* PBXTargetDependency */ = {
+		B11D7A09AD9FEF8719132C56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WireGuardGoBridgeiOS;
-			target = BAD670E67D22F35E9C00FD56 /* WireGuardGoBridgeiOS */;
-			targetProxy = F8ACEEC89DFD82550DC3BDAB /* PBXContainerItemProxy */;
+			target = 62ACB68A138578A37F491811 /* WireGuardGoBridgeiOS */;
+			targetProxy = 4E5BC1E396DC4E2F1CA98B5D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		057C6BE2D09CC0A07E65ADD5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_ENTITLEMENTS = App/iOS/Hop.entitlements;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Hop;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).hop";
-				PRODUCT_NAME = Hop;
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		143385C28DDD7C56982BB2F9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_ENTITLEMENTS = App/iOS/Hop.entitlements;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Hop;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).hop";
-				PRODUCT_NAME = Hop;
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2F63B68DE83BC564FD8ED899 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_ENTITLEMENTS = Tunnel/macOS/HopTunnel.entitlements;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Tunnel/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Hop Tunnel";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).hop.tunnel";
-				PRODUCT_NAME = HopTunnel;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		6BF606586C090151BE92EAC7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).hop.tests";
-				PRODUCT_NAME = HopTests;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		7D6295FBAD528C112538985F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_ENTITLEMENTS = Tunnel/macOS/HopTunnel.entitlements;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Tunnel/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Hop Tunnel";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).hop.tunnel";
-				PRODUCT_NAME = HopTunnel;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		83D104E98362F9076146E13B /* Release */ = {
+		0F9F0F0D09C27B77E2D8FD5C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -832,92 +820,7 @@
 			};
 			name = Release;
 		};
-		85A939D05FF61E9FCC2A3306 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = App/macOS/Hop.entitlements;
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Hop;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).hop";
-				PRODUCT_NAME = Hop;
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		8A6B089E70A70EB3E476A235 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = App/macOS/Hop.entitlements;
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Hop;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).hop";
-				PRODUCT_NAME = Hop;
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		8F27763318151B8C66E7A24B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).hop.tests";
-				PRODUCT_NAME = HopTests;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		A2912B3412AADF681FBB1E9C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = iphoneos;
-			};
-			name = Release;
-		};
-		A38C67DD8F096FCC46697899 /* Release */ = {
+		174A486E22A25C62E4E32FD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -937,15 +840,337 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tunnel/HopTunnel-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C47D25883E998A492E669E5A /* Debug */ = {
+		246C5C47C7E1251310F5C906 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64E407C8399B2D73B3AB4DCD /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/macOS/Hop.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hop;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).hop";
+				PRODUCT_NAME = Hop;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		246EA5DFCA03BC3581CED0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Tunnel/iOS/HopTunnel.entitlements;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tunnel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hop Tunnel";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).hop.tunnel";
+				PRODUCT_NAME = HopTunnel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tunnel/HopTunnel-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3613E16A281DE40EE5978812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+			};
+			name = Release;
+		};
+		3799AA24EE692DE203633114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = App/iOS/Hop.entitlements;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hop;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).hop";
+				PRODUCT_NAME = Hop;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37DE2E03F7E60FA3D167F082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+			};
+			name = Debug;
+		};
+		39A283972110955AE91F6C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		3A48760245CD0D2B7E8DBB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Tunnel/macOS/HopTunnel.entitlements;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tunnel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hop Tunnel";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).hop.tunnel";
+				PRODUCT_NAME = HopTunnel;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tunnel/HopTunnel-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5D153BE3166D645902CAEBA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = App/iOS/Hop.entitlements;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hop;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).hop";
+				PRODUCT_NAME = Hop;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63F070D643EAF3CB17A0DF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92BA08F48E1F8E944C61999 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7121BFFF7E6C01AD367AED62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).hop.tests";
+				PRODUCT_NAME = HopTests;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7DC6CD73C87DFD680F6D50C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).hop.tests";
+				PRODUCT_NAME = HopTests;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DD6D1A65F126E721E7E3BC7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/macOS/Hop.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hop;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).hop";
+				PRODUCT_NAME = Hop;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E79FFB38D271DEFC05090973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Tunnel/macOS/HopTunnel.entitlements;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tunnel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hop Tunnel";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).hop.tunnel";
+				PRODUCT_NAME = HopTunnel;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tunnel/HopTunnel-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EB5C7710F8314ABF36B2D927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92BA08F48E1F8E944C61999 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1010,211 +1235,82 @@
 			};
 			name = Debug;
 		};
-		C7DD2FEED7BC042A622560C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_ENTITLEMENTS = Tunnel/iOS/HopTunnel.entitlements;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Tunnel/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Hop Tunnel";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).hop.tunnel";
-				PRODUCT_NAME = HopTunnel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DF17D4967FF671E6C7D8E098 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = iphoneos;
-			};
-			name = Debug;
-		};
-		E7CA6A8F0FA312E5B6494C16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64E407C8399B2D73B3AB4DCD /* Config.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_BITCODE = NO;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MARKETING_VERSION = 1.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		F06528EE956CE6B1EA842EEB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A84A0E662D378CA4E3F9FD1 /* Build configuration list for PBXProject "Hop" */ = {
+		555639AFFCD0A62269C3DF78 /* Build configuration list for PBXProject "Hop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C47D25883E998A492E669E5A /* Debug */,
-				E7CA6A8F0FA312E5B6494C16 /* Release */,
+				EB5C7710F8314ABF36B2D927 /* Debug */,
+				63F070D643EAF3CB17A0DF94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B3296D6FC99355202E4CA67 /* Build configuration list for PBXNativeTarget "HopTests" */ = {
+		57A3C1FC34744E6E10B852D8 /* Build configuration list for PBXNativeTarget "HopTunnel-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BF606586C090151BE92EAC7 /* Debug */,
-				8F27763318151B8C66E7A24B /* Release */,
+				246EA5DFCA03BC3581CED0FA /* Debug */,
+				174A486E22A25C62E4E32FD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		27436F5853695554B4BAABFC /* Build configuration list for PBXLegacyTarget "WireGuardGoBridgemacOS" */ = {
+		726A8ABF547BA4CD93AC91AC /* Build configuration list for PBXLegacyTarget "WireGuardGoBridgemacOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F06528EE956CE6B1EA842EEB /* Debug */,
-				83D104E98362F9076146E13B /* Release */,
+				39A283972110955AE91F6C6B /* Debug */,
+				0F9F0F0D09C27B77E2D8FD5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6285B8C80FD15DD2F08E0BCA /* Build configuration list for PBXNativeTarget "HopTunnel-iOS" */ = {
+		A7471EAD1164A39CFFC454B8 /* Build configuration list for PBXNativeTarget "Hop-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7DD2FEED7BC042A622560C3 /* Debug */,
-				A38C67DD8F096FCC46697899 /* Release */,
+				DD6D1A65F126E721E7E3BC7B /* Debug */,
+				246C5C47C7E1251310F5C906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6470D7D87DBE1C73A09C102B /* Build configuration list for PBXNativeTarget "HopTunnel-macOS" */ = {
+		C6F4B21F60EFEAB2E54F3359 /* Build configuration list for PBXNativeTarget "HopTunnel-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F63B68DE83BC564FD8ED899 /* Debug */,
-				7D6295FBAD528C112538985F /* Release */,
+				E79FFB38D271DEFC05090973 /* Debug */,
+				3A48760245CD0D2B7E8DBB5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB98E3262E46039387ACCCBD /* Build configuration list for PBXNativeTarget "Hop-macOS" */ = {
+		EBE0B4D37DF211CAC8C324B5 /* Build configuration list for PBXLegacyTarget "WireGuardGoBridgeiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A6B089E70A70EB3E476A235 /* Debug */,
-				85A939D05FF61E9FCC2A3306 /* Release */,
+				37DE2E03F7E60FA3D167F082 /* Debug */,
+				3613E16A281DE40EE5978812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C42D1A587B3FCBAFA5D5531D /* Build configuration list for PBXNativeTarget "Hop-iOS" */ = {
+		F25A8E208F050D79F5DEE113 /* Build configuration list for PBXNativeTarget "Hop-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				057C6BE2D09CC0A07E65ADD5 /* Debug */,
-				143385C28DDD7C56982BB2F9 /* Release */,
+				3799AA24EE692DE203633114 /* Debug */,
+				5D153BE3166D645902CAEBA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3478EE8A4B51DBE47239A3E /* Build configuration list for PBXLegacyTarget "WireGuardGoBridgeiOS" */ = {
+		FF5068E983A385EE45B83E40 /* Build configuration list for PBXNativeTarget "HopTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF17D4967FF671E6C7D8E098 /* Debug */,
-				A2912B3412AADF681FBB1E9C /* Release */,
+				7121BFFF7E6C01AD367AED62 /* Debug */,
+				7DC6CD73C87DFD680F6D50C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		D762F6A7E93C64C86778C6F9 /* XCRemoteSwiftPackageReference "wireguard-apple" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/WireGuard/wireguard-apple";
-			requirement = {
-				kind = exactVersion;
-				version = "1.0.16-27";
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		03E299DC7273867F93A33443 /* WireGuardKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D762F6A7E93C64C86778C6F9 /* XCRemoteSwiftPackageReference "wireguard-apple" */;
-			productName = WireGuardKit;
-		};
-		FAC3EBB6149D79D89A0361BA /* WireGuardKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D762F6A7E93C64C86778C6F9 /* XCRemoteSwiftPackageReference "wireguard-apple" */;
-			productName = WireGuardKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = D8DDC739BCCCE4B03CF80DC1 /* Project object */;
+	rootObject = 60CCB3E3F97B46754636B8B6 /* Project object */;
 }
