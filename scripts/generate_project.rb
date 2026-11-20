@@ -14,8 +14,6 @@ Dir.chdir(ROOT)
 PROJECT_PATH = 'Hop.xcodeproj'
 IOS_VERSION = '16.0'
 MACOS_VERSION = '13.0'
-WIREGUARD_URL = 'https://github.com/WireGuard/wireguard-apple'
-WIREGUARD_VERSION = '1.0.16-27'
 
 FileUtils.rm_rf(PROJECT_PATH)
 project = Xcodeproj::Project.new(PROJECT_PATH, false, 56)
@@ -53,7 +51,8 @@ app_refs = add_tree(main.new_group('App', 'App'), 'App')
 shared_refs = add_tree(main.new_group('Shared', 'Shared'), 'Shared')
 tunnel_refs = add_tree(main.new_group('Tunnel', 'Tunnel'), 'Tunnel')
 test_refs = add_tree(main.new_group('Tests', 'Tests'), 'Tests')
-add_tree(main.new_group('WireGuardGoBridge', 'WireGuardGoBridge'), 'WireGuardGoBridge')
+wgkit_refs = add_tree(main.new_group('WireGuardKit', 'WireGuardKit'), 'WireGuardKit')
+wgkit_sources = wgkit_refs.select { |r| r.path.end_with?('.swift', '.c') }
 
 assets_ref = app_refs.find { |r| r.path.end_with?('.xcassets') }
 mac_only_app = app_refs.select { |r| r.real_path.to_s.include?('/App/macOS/') && r.path.end_with?('.swift') }
@@ -73,22 +72,14 @@ project.build_configurations.each do |config|
   )
 end
 
-# ---------------------------------------------------------------- package
+# ---------------------------------------------------------------- WireGuard
 
-wireguard = project.new(Xcodeproj::Project::Object::XCRemoteSwiftPackageReference)
-wireguard.repositoryURL = WIREGUARD_URL
-wireguard.requirement = { 'kind' => 'exactVersion', 'version' => WIREGUARD_VERSION }
-project.root_object.package_references << wireguard
-
-def link_wireguard(project, target, package)
-  dep = project.new(Xcodeproj::Project::Object::XCSwiftPackageProductDependency)
-  dep.package = package
-  dep.product_name = 'WireGuardKit'
-  target.package_product_dependencies << dep
-  file = project.new(Xcodeproj::Project::Object::PBXBuildFile)
-  file.product_ref = dep
-  target.frameworks_build_phase.files << file
-end
+# WireGuardKit's sources compile straight into each tunnel extension (see
+# WireGuardKit/README.md). The Go engine lands in the build products folder
+# as libwg-go.a, built by the WireGuardGoBridge targets below.
+wg_go_lib = project.products_group.new_reference('libwg-go.a', :built_products)
+wg_go_lib.last_known_file_type = 'archive.ar'
+wg_go_lib.include_in_index = '0'
 
 # ---------------------------------------------------------------- helpers
 
@@ -111,7 +102,7 @@ def go_bridge(project, name, sdk, deployment_key, version)
   target.product_name = name
   target.build_tool_path = '/usr/bin/make'
   target.build_arguments_string = '$(ACTION)'
-  target.build_working_directory = '$(PROJECT_DIR)/WireGuardGoBridge'
+  target.build_working_directory = '$(PROJECT_DIR)/WireGuardKit/Go'
   target.pass_build_settings_in_environment = '1'
   list = project.new(Xcodeproj::Project::Object::XCConfigurationList)
   list.default_configuration_name = 'Release'
@@ -155,8 +146,8 @@ platforms.each do |p|
   # Packet tunnel extension
   ext = project.new_target(:app_extension, "HopTunnel-#{p[:key]}", p[:platform], p[:version], nil, :swift, 'HopTunnel')
   strip_default_frameworks(ext)
-  ext.add_file_references(swift(tunnel_refs) + shared_refs.select { |r| %w[WireGuardConfig.swift TunnelKeys.swift].include?(r.path) })
-  link_wireguard(project, ext, wireguard)
+  ext.add_file_references(swift(tunnel_refs) + wgkit_sources + shared_refs.select { |r| %w[WireGuardConfig.swift TunnelKeys.swift].include?(r.path) })
+  ext.frameworks_build_phase.add_file_reference(wg_go_lib, true)
   ext.add_dependency(bridge)
   ext_settings = {
     'PRODUCT_NAME' => 'HopTunnel',
@@ -167,6 +158,7 @@ platforms.each do |p|
     'CODE_SIGN_ENTITLEMENTS' => "Tunnel/#{p[:key]}/HopTunnel.entitlements",
     'SKIP_INSTALL' => 'YES',
     'APPLICATION_EXTENSION_API_ONLY' => 'YES',
+    'SWIFT_OBJC_BRIDGING_HEADER' => 'Tunnel/HopTunnel-Bridging-Header.h',
     'SWIFT_VERSION' => '5.0',
     'SUPPORTED_PLATFORMS' => p[:sdk],
   }

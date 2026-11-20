@@ -3,5 +3,5 @@ xcuserdata/
 DerivedData/
 build/
 *.xcuserstate
-WireGuardGoBridge/out/
-WireGuardGoBridge/.tmp/
+WireGuardKit/Go/out/
+WireGuardKit/Go/.tmp/

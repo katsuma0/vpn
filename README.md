@@ -24,7 +24,7 @@ Two things nobody tells you about "free VPN" apps:
 
 1. Install Xcode 16 or newer, then Go: `brew install go`
 2. Open `Config.xcconfig` and put your Team ID after `DEVELOPMENT_TEAM =`. Change `BUNDLE_ID_PREFIX` if `com.katsuma0` is taken.
-3. Open `Hop.xcodeproj`. Xcode downloads WireGuard on its own the first time.
+3. Open `Hop.xcodeproj`. Everything WireGuard needs is already in the repo, so there's nothing to download.
 4. **Mac:** pick the `Hop-macOS` scheme and press Run.
    **iPhone:** plug it in, turn on Developer Mode (Settings > Privacy & Security), pick the `Hop-iOS` scheme and your phone, then press Run. The simulator can't run VPN tunnels, so you need the real thing.
 5. The first time you tap Connect, your device asks to add a VPN configuration. Say Allow.
@@ -49,8 +49,8 @@ xcodebuild test -project Hop.xcodeproj -scheme HopTests -destination 'platform=m
 ## How it fits together
 
 ```
-SwiftUI app  ->  NETunnelProviderManager  ->  HopTunnel extension  ->  WireGuardKit  ->  wireguard-go
-(App/)           (system VPN settings)       (Tunnel/)                (Swift package)   (WireGuardGoBridge/)
+SwiftUI app  ->  NETunnelProviderManager  ->  HopTunnel extension  ->  WireGuardKit     ->  wireguard-go
+(App/)           (system VPN settings)       (Tunnel/)                (WireGuardKit/)      (WireGuardKit/Go/)
 ```
 
 | Folder | What's in it |
@@ -59,12 +59,12 @@ SwiftUI app  ->  NETunnelProviderManager  ->  HopTunnel extension  ->  WireGuard
 | `Shared/` | Plain Swift used everywhere: config parser, countries, saved servers. |
 | `Tunnel/` | The packet tunnel extension that runs WireGuard. |
 | `Tests/` | Unit tests for `Shared/`. |
-| `WireGuardGoBridge/` | Builds WireGuard's Go engine. See its README. |
+| `WireGuardKit/` | WireGuard's Apple library and Go engine, vendored so it builds on current Xcode. See its README. |
 | `scripts/generate_project.rb` | Rebuilds `Hop.xcodeproj` if you add or move files. |
 
 ## When something breaks
 
-- **Build fails in WireGuardGoBridge:** Go isn't installed or isn't on the path Xcode sees. `brew install go` fixes it. The Makefile already looks in `/opt/homebrew/bin` and `/usr/local/bin`.
+- **Build fails in a WireGuardGoBridge target:** Go isn't installed or isn't on the path Xcode sees. `brew install go` fixes it. The Makefile already looks in `/opt/homebrew/bin` and `/usr/local/bin`.
 - **"Signing requires a development team":** fill in `DEVELOPMENT_TEAM` in `Config.xcconfig`.
 - **"Provisioning profile doesn't include the Network Extensions capability":** your Apple account isn't a paid developer account yet.
 - **Connected but pages won't load:** the server's probably down or the config is stale. Download a fresh one, or try another country.

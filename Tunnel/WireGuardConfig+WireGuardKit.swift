@@ -1,5 +1,4 @@
 import Foundation
-import WireGuardKit
 
 extension WireGuardConfig {
     /// Turns our parsed config into the types WireGuardKit runs on.
